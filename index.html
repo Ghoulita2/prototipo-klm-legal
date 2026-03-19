@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KLMC Legal S.C. | Firma de Abogados en Caracas</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        klmc: {
+                            red: '#E30613',
+                            dark: '#0f172a',
+                            light: '#f8fafc'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Lora', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-klmc-light text-slate-800 font-sans antialiased selection:bg-klmc-red selection:text-white">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 h-20 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight text-klmc-dark flex items-center gap-2">
+                <div class="w-1 h-6 bg-klmc-red"></div>
+                KLMC<span class="text-klmc-red">LEGAL</span> <span class="text-xs font-light tracking-normal text-gray-500 mt-1">S.C.</span>
+            </div>
+            <div class="hidden md:flex space-x-10 text-xs font-semibold uppercase tracking-widest text-slate-600">
+                <a href="#inicio" class="hover:text-klmc-red transition-colors duration-300">Inicio</a>
+                <a href="#firma" class="hover:text-klmc-red transition-colors duration-300">La Firma</a>
+                <a href="#servicios" class="hover:text-klmc-red transition-colors duration-300">Servicios</a>
+                <a href="#contacto" class="hover:text-klmc-red transition-colors duration-300">Contacto</a>
+            </div>
+            <a href="#contacto" class="hidden md:flex items-center gap-2 bg-klmc-dark text-white text-xs font-semibold uppercase tracking-widest px-6 py-3 hover:bg-klmc-red transition-colors duration-300">
+                Consultar <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+        </div>
+    </nav>
+
+    <section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-klmc-dark">
+        <div class="absolute inset-0 opacity-40">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop" alt="Edificio Corporativo Caracas" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-klmc-dark/90 to-transparent"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full">
+            <div class="max-w-2xl">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="h-[1px] w-12 bg-klmc-red"></div>
+                    <span class="text-klmc-red font-semibold tracking-widest uppercase text-sm">Derecho Corporativo y Litigios</span>
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-light text-white leading-tight mb-8">
+                    Soluciones legales con <span class="font-bold">visión estratégica.</span>
+                </h1>
+                <p class="font-serif text-xl text-gray-300 mb-10 leading-relaxed">
+                    Representamos sus intereses con integridad y excelencia desde el corazón financiero de Caracas.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contacto" class="bg-klmc-red text-white text-center text-sm font-semibold uppercase tracking-widest px-8 py-4 hover:bg-white hover:text-klmc-red transition-all duration-300">
+                        Agendar Reunión
+                    </a>
+                    <a href="#servicios" class="border border-white/30 text-white text-center text-sm font-semibold uppercase tracking-widest px-8 py-4 hover:bg-white/10 transition-all duration-300">
+                        Nuestras Áreas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="firma" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="relative">
+                    <div class="absolute -top-6 -left-6 w-32 h-32 bg-gray-100 z-0"></div>
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2000&auto=format&fit=crop" alt="Oficina Legal" class="relative z-10 w-full h-[600px] object-cover shadow-2xl">
+                    <div class="absolute -bottom-6 -right-6 w-48 h-48 bg-klmc-red/10 z-0"></div>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-light text-klmc-dark mb-6">Sobre <span class="font-bold">Nuestra Firma</span></h2>
+                    <p class="font-serif text-lg text-slate-600 mb-6 leading-relaxed">
+                        En KLMC Legal S.C. no solo interpretamos la ley, diseñamos estrategias a medida para proteger el patrimonio y los intereses de nuestros clientes.
+                    </p>
+                    <p class="font-serif text-lg text-slate-600 mb-8 leading-relaxed">
+                        Con sede en La Floresta, nuestro equipo multidisciplinario combina años de experiencia en los tribunales con un profundo conocimiento del entorno empresarial venezolano, ofreciendo respuestas ágiles y precisas ante escenarios complejos.
+                    </p>
+                    <ul class="space-y-4 mb-10">
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle" class="text-klmc-red w-5 h-5"></i> Ética y transparencia absolutas.
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle" class="text-klmc-red w-5 h-5"></i> Análisis riguroso de la jurisprudencia.
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-700">
+                            <i data-lucide="check-circle" class="text-klmc-red w-5 h-5"></i> Atención personalizada y confidencial.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-24 bg-klmc-light border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-4xl font-light text-klmc-dark mb-4">Áreas de <span class="font-bold">Especialidad</span></h2>
+                <p class="font-serif text-slate-500">Ofrecemos asesoría legal integral, adaptada a las necesidades específicas de personas naturales y jurídicas.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="group bg-white p-10 shadow-sm hover:shadow-xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-klmc-red transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                    <div class="w-14 h-14 bg-klmc-red/10 flex items-center justify-center rounded-sm mb-6 text-klmc-red group-hover:bg-klmc-red group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="scale" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-klmc-dark mb-3">Litigios Civiles</h3>
+                    <p class="font-serif text-slate-600 text-sm leading-relaxed">
+                        Representación contundente en tribunales para la resolución de controversias civiles, contractuales y extracontractuales.
+                    </p>
+                </div>
+
+                <div class="group bg-white p-10 shadow-sm hover:shadow-xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-klmc-red transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                    <div class="w-14 h-14 bg-klmc-red/10 flex items-center justify-center rounded-sm mb-6 text-klmc-red group-hover:bg-klmc-red group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="building-2" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-klmc-dark mb-3">Derecho Corporativo</h3>
+                    <p class="font-serif text-slate-600 text-sm leading-relaxed">
+                        Acompañamiento legal a empresas: redacción de contratos, actas de asamblea, fusiones y cumplimiento normativo.
+                    </p>
+                </div>
+
+                <div class="group bg-white p-10 shadow-sm hover:shadow-xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-klmc-red transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
+                    <div class="w-14 h-14 bg-klmc-red/10 flex items-center justify-center rounded-sm mb-6 text-klmc-red group-hover:bg-klmc-red group-hover:text-white transition-colors duration-500">
+                        <i data-lucide="gavel" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-klmc-dark mb-3">Casación Civil</h3>
+                    <p class="font-serif text-slate-600 text-sm leading-relaxed">
+                        Análisis riguroso y formalización de recursos extraordinarios ante el Tribunal Supremo de Justicia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-klmc-dark text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col md:flex-row justify-between items-center gap-10">
+            <div class="max-w-xl">
+                <h2 class="text-3xl font-light mb-4">Análisis y <span class="font-bold text-klmc-red">Criterios Jurídicos</span></h2>
+                <p class="font-serif text-gray-400">
+                    Manténgase al día con las últimas sentencias de la Sala de Casación Civil y nuestro análisis de su impacto en el derecho venezolano. Visite nuestro perfil de Instagram para contenido actualizado.
+                </p>
+            </div>
+            <a href="https://instagram.com/klmclegal" target="_blank" class="flex items-center gap-3 border border-white/20 px-8 py-4 hover:bg-white hover:text-klmc-dark transition-all duration-300 uppercase tracking-widest text-sm font-semibold">
+                <i data-lucide="instagram" class="w-5 h-5"></i> Ver Publicaciones
+            </a>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-slate-900 pt-20 pb-10 border-t-4 border-klmc-red">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+                <div>
+                    <div class="text-2xl font-bold tracking-tight text-white mb-6">
+                        KLMC<span class="text-klmc-red">LEGAL</span>
+                    </div>
+                    <p class="font-serif text-gray-400 text-sm leading-relaxed">
+                        Firma de abogados comprometida con la excelencia, la ética profesional y la defensa estratégica de sus intereses.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold uppercase tracking-widest mb-6">Sede Principal</h4>
+                    <ul class="space-y-4 text-gray-400 font-serif text-sm">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-klmc-red shrink-0 mt-1"></i>
+                            <span>Av. Francisco de Miranda, Edificio Banco del Orinoco, Piso 7, Oficina 7-B. Urb. La Floresta. 1060. Caracas.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold uppercase tracking-widest mb-6">Contacto</h4>
+                    <ul class="space-y-4 text-gray-400 font-serif text-sm">
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-klmc-red"></i>
+                            <a href="mailto:contacto@klmclegal.com" class="hover:text-white transition-colors">contacto@klmclegal.com</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-klmc-red"></i>
+                            <a href="tel:+582120000000" class="hover:text-white transition-colors">+58 (212) 000-0000</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 uppercase tracking-widest">
+                <p>&copy; 2026 KLMC Legal S.C. Todos los derechos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-klmc-red transition-colors">LinkedIn</a>
+                    <a href="#" class="hover:text-klmc-red transition-colors">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/584120000000" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 hover:bg-green-600 transition-all duration-300 z-50 flex items-center justify-center group">
+        <i data-lucide="message-circle" class="w-7 h-7"></i>
+        <span class="absolute right-16 bg-white text-slate-800 text-xs font-semibold px-3 py-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+            Atención Inmediata
+        </span>
+    </a>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
